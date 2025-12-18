@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap"
+          rel="stylesheet">
+
+    <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./index.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Geiler's Portfolio"/>
+    <meta name="keywords" content="Fullstack, Developer, Geiler Esteban Lopez Corria"/>
+    <title> G.E. | FullStack Developer</title>
+
+    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/apple-touch-icon-57x57.png">
+</head>
+<body>
+<main>
+    <header id="heroHeader" class="hero-header">
+        <nav id="navBar" class="nav">
+            <div class="container">
+                <button type="button" id="hamburgerBtn" class="nav__hamburger-btn">
+                    <span class="nav__hamburger-top"></span>
+                    <span class="nav__hamburger-center"></span>
+                    <span class="nav__hamburger-bottom"></span>
+                </button>
+                <ul id="navList" class="nav__list">
+                    <li class="nav__list-item">
+                        <a class="nav__list-link active" href="#heroHeader">&lt;Inicio &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#services">&lt;Servicios &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#works">&lt;Trabajos &sol;&gt;</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="#contact">&lt;Contacto &sol;&gt;</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="header__container container">
+            <div class="header__left">
+                <span class="header__sup-text">Hola! Soy </span>
+                <h1 class="header__title">
+                    <span class="header__title-1" data-role="WEB">Web</span>
+                    <span class="header__title-2" data-role="DEVELOPER">Developer</span>
+                </h1>
+                <p class="header__msg">Como desarrollador web fullstack, mi enfoque es crear experiencias de usuario atractivas e intuitivas mediante el uso de código limpio y eficiente.</p>
+                <a href="#" class="header__resume">Currículum Vítae</a>
+            </div>
+            <div class="header__right">
+                <img src="./assets/illustrations/header.svg" alt="Header section illustration"/>
+            </div>
+        </section>
+        <span class="header__bg"></span>
+    </header>
+
+    <section id="services" class="section container">
+        <h2 class="section__title">Servicios</h2>
+
+        <div class="service-cards">
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/support.svg" alt="Support Illustration"/>
+                </span>
+                <h3 class="service-card__title">Despliegue</h3>
+                <p class="service-card__msg"> Siempre estoy disponible para abordar cualquier problema o inquietud que pueda tener.</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/design.svg" alt="Design Illustration"/>
+                </span>
+                <h3 class="service-card__title">Diseño Web</h3>
+                <p class="service-card__msg">Especializado en crear sitios web impresionantes que sean visualmente atractivos y fáciles de usar.</p>
+                <span class="service-card__bg"></span>
+            </article>
+            <article class="service-card__box">
+                <span class="service-card__illustration">
+                    <img src="./assets/services/developing.svg" alt="Deploy Illustration"/>
+                </span>
+                <h3 class="service-card__title">Desarrollo</h3>
+                <p class="service-card__msg"> Ofrezco servicios de desarrollo web personalizados adaptados a sus necesidades específicas como profesional independiente.</p>
+                <span class="service-card__bg"></span>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sample Works -->
+    <section id="works" class="section container">
+        <h2 class="section__title">Mis Trabajos</h2>
+        <div class="works">
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/sample.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">My Landing Page</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/sample.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">My Landing Page</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/sample.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">My Landing Page</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/sample.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">My Landing Page</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/sample.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">My Landing Page</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+            <article class="work">
+                <div class="work__box">
+                    <span class="work__img-box">
+                    <img src="./assets/works/sample.png" alt="My Work 1"/>
+                </span>
+                    <h3 class="work__title">My Landing Page</h3>
+                    <span class="work__badges">
+                    <span class="work__badge">HTML</span>
+                    <span class="work__badge">CSS</span>
+                    <span class="work__badge">JavaScript</span>
+                </span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="section container">
+        <h2 class="section__title">Contactemos!</h2>
+        <div class="contact">
+            <form class="contact__form">
+                <div class="contact__field-wrapper">
+                    <label for="contactNameTxt">Nombre:</label>
+                    <input id="contactNameTxt" type="text" placeholder="Cómo te llamas?"/>
+                </div>
+                <div class="contact__field-wrapper">
+                    <label for="contactDescriptionTxt">Mensaje:</label>
+                    <textarea id="contactDescriptionTxt" placeholder="Contactemos!"></textarea>
+                </div>
+
+                <button type="submit" class="contact__submit-btn">Enviar</button>
+            </form>
+            <span class="contact__illustration">
+                <img src="./assets/illustrations/connect.svg" alt="Grupo de personas que se conectan entre sí"/>
+            </span>
+        </div>
+    </section>
+
+</main>
+</body>
+</html>
